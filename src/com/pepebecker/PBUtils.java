@@ -1,4 +1,4 @@
-package game;
+package com.pepebecker;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package game;
+package com.pepebecker;
 
 import static org.lwjgl.opengl.GL11.GL_QUADS;
 import static org.lwjgl.opengl.GL11.glBegin;
@@ -27,7 +27,7 @@ public class Block {
 	private float spritesInRow = 16;
 	
 	public static void LoadResources() {
-		texture = PBUtils.loadTexture("/terrain.png");
+		texture = PBUtils.loadTexture("terrain.png");
 	}
 	
 	public Block(int x, int y, int z, int t) {
